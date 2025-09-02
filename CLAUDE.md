@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Architecture Overview
 
-This is an **al-folio** Jekyll-based academic website template. The site is a static site generator with the following key components:
+This is a Jekyll-based academic portfolio website. The site is a static site generator with the following key components:
 
 - **Jekyll**: Static site generator configured via `_config.yml`
 - **Ruby/Bundler**: Dependency management via `Gemfile`
