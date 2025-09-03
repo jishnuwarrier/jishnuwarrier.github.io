@@ -1,7 +1,7 @@
 ---
 layout: page
 title: submenus
-nav: true
+# nav: true  # commented out to remove from navigation
 nav_order: 8
 dropdown: true
 children:
