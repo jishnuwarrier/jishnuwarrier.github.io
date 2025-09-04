@@ -2,18 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: MS Computer Engineering @ <a href='https://engineering.nyu.edu/'>NYU Tandon</a> | Research Assistant @ <a href='#'>SAI Lab</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>SAI Lab, NYU Tandon</p>
+    <p>Brooklyn, NY 11201</p>
+    <p>jishnu.warrier@nyu.edu</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -27,8 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a Master's student in Computer Engineering at NYU Tandon with a passion for building intelligent systems that solve real-world problems. Currently working as a Research Assistant at SAI Lab, I'm developing graph-constrained multi-agent reinforcement learning pipelines to accelerate post-disaster electrical grid restoration.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My expertise spans machine learning operations, distributed systems, and full-stack development. At Chubb, I architected backend infrastructure for AI-powered product recommender systems, designed real-time monitoring solutions, and implemented dynamic pricing strategies that increased campaign engagement by 25% and reduced incident response times by 60%.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I enjoy tackling complex technical challenges, from building efficient MLOps pipelines on cloud infrastructure to developing novel multi-agent reasoning systems. My recent projects include [SpotifyBuddies](https://github.com/jishnuwarrier), a playlist recommender with end-to-end MLOps deployment, and [EfficientDebates](https://github.com/jishnuwarrier), a pruning-based approach that achieves 90.3% accuracy on reasoning tasks while reducing compute costs by 4.3x.
+
+When I'm not coding, you'll find me exploring the intersection of AI and practical applications, always looking for ways to make technology more accessible and impactful.
