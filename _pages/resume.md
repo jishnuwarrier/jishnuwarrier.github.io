@@ -43,7 +43,7 @@ body {
 
 <div class="resume-container">
   <iframe 
-    src="{{ 'assets/pdf/jishnu_resume.pdf#zoom=50' | relative_url }}" 
+    src="{{ 'assets/pdf/jishnu_resume.pdf' | relative_url }}" 
     class="resume-iframe"
     title="Jishnu Warrier Resume">
     <p style="padding: 2rem; text-align: center;">

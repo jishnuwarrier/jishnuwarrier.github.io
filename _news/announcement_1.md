@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started as a Teaching Assistant for Responsible AI at NYU, guiding graduate students through practical AI ethics exercises.
+Started as a Teaching Assistant for Responsible AI
