@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: MS Computer Engineering @ <a href='https://engineering.nyu.edu/'>NYU Tandon</a> | Research Assistant @ <a href='#'>SAI Lab</a>
+subtitle: MS Computer Engineering @NYU | Research Assistant @SAI Lab
 
 profile:
   align: right
@@ -22,15 +22,15 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a Master's student in Computer Engineering at NYU Tandon with a passion for building intelligent systems that solve real-world problems. Currently working as a Research Assistant at SAI Lab, I'm developing graph-constrained multi-agent reinforcement learning pipelines to accelerate post-disaster electrical grid restoration.
+Hi, I’m Jishnu 👋
 
-My expertise spans machine learning operations, distributed systems, and full-stack development. At Chubb, I architected backend infrastructure for AI-powered product recommender systems, designed real-time monitoring solutions, and implemented dynamic pricing strategies that increased campaign engagement by 25% and reduced incident response times by 60%.
+I’m a Master’s student in Computer Engineering at NYU Tandon, where I focus on building intelligent, scalable systems at the intersection of AI and software engineering. My journey began with an undergraduate degree from BITS Pilani, followed by a year as a Software Engineer at Chubb, where I worked on AI-driven platforms and large-scale backend infrastructure.
 
-I enjoy tackling complex technical challenges, from building efficient MLOps pipelines on cloud infrastructure to developing novel multi-agent reasoning systems. My recent projects include [SpotifyBuddies](https://github.com/jishnuwarrier), a playlist recommender with end-to-end MLOps deployment, and [EfficientDebates](https://github.com/jishnuwarrier), a pruning-based approach that achieves 90.3% accuracy on reasoning tasks while reducing compute costs by 4.3x.
+Now at NYU, I’m combining research and engineering — exploring how reinforcement learning and large language models can power complex, real-world decision-making. I’ve also spent time developing deep learning models during my internship at Nanyang Technological University, which gave me early exposure to applying AI to human-centered problems.
 
-When I'm not coding, you'll find me exploring the intersection of AI and practical applications, always looking for ways to make technology more accessible and impactful.
+I enjoy solving problems that sit at the crossroads of machine learning, distributed systems, and practical applications. Whether it’s deploying production-grade pipelines, optimizing large-scale systems, or experimenting with new ways to make AI more explainable and impactful, I’m always curious to dive deeper.
