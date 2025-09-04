@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Began research collaboration with Nanyang Technological University, developing deep learning models for student engagement detection using computer vision.
+Began research collaboration with NTU Singapore, developing deep learning models for student engagement detection using computer vision.

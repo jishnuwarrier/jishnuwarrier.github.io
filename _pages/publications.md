@@ -33,7 +33,7 @@ nav_order: 2
   <li style="margin-bottom: 0.8rem;">Streamlined deployment processes using Docker and Azure Kubernetes Service (AKS), ensuring seamless, scalable, and reliable cloud-based operations.</li>
 </ul>
 
-<h2 style="font-size: 1.8rem; font-weight: 600; color: var(--global-theme-color); margin-top: 2rem; margin-bottom: 1.5rem;">Nanyang Technological University</h2>
+<h2 style="font-size: 1.8rem; font-weight: 600; color: var(--global-theme-color); margin-top: 2rem; margin-bottom: 1.5rem;">NTU Singapore</h2>
 
 <p style="margin-bottom: 0.25rem; font-weight: 500; color: #666;">July 2022 — June 2023</p>
 <p style="margin-top: 0; margin-bottom: 0.5rem; color: #666;">Research Intern · Remote</p>
