@@ -88,7 +88,7 @@
                       {% else %}
                         <a
                           class="dropdown-item {% if page.url contains child.url %}active{% endif %}"
-                          href="{{ child.url | relative_url }}"
+                          href="{{ child.url | relative_url }}"{% if child.target %} target="{{ child.target }}"{% if child.target == '_blank' %} rel="noopener"{% endif %}{% endif %}
                         >
                           {{- child.label | default: child.title -}}
                         </a>
@@ -98,7 +98,7 @@
                 </li>
               {% else %}
                 <li class="nav-item {% if page.url contains n.url %}active{% endif %}">
-                  <a class="nav-link" href="{{ n.url | relative_url }}">
+                  <a class="nav-link" href="{{ n.url | relative_url }}"{% if n.target %} target="{{ n.target }}"{% if n.target == '_blank' %} rel="noopener"{% endif %}{% endif %}>
                     {{- n.label | default: n.title -}}
                     {% if page.url contains n.url %}
                       <span class="sr-only">(current)</span>
