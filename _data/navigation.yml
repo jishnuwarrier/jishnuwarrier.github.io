@@ -1,0 +1,16 @@
+---
+# Define the exact order and labels for the navbar.
+# label: text shown in the navbar
+# url: page URL (relative to site baseurl)
+
+- label: experience
+  url: /research/
+
+- label: projects
+  url: /projects/
+
+- label: resume
+  url: /resume/
+
+- label: teaching
+  url: /teaching/

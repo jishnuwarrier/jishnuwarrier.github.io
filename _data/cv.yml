@@ -55,14 +55,14 @@
 - title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/jishnuwarrier/SpotifyBuddies">SpotifyBuddies - Organic Playlist Recommender</a>
+    - title: <a href="https://github.com/jishnuwarrier/MLOps_G47_SpotifyBuddies">SpotifyBuddies - Organic Playlist Recommender</a>
       year: Jan 2025 – May 2025
       description:
         - Built a 40 GB data-prep pipeline (Pandas + SciPy sparse) that merged Million Playlist and Echo Nest datasets, computed 100M+ user–playlist overlaps in minutes, and produced 20M contrastive triplets for model training.
         - Implemented a FastAPI micro-service (multi-stage Docker, uv installer) delivering 1000-user batch recommendations <300ms on CPU, shrinking image size 6GB → 2GB and build time by 85%.
         - Deployed an end-to-end MLOps pipeline on Chameleon Cloud with Terraform & Ansible.
 
-    - title: <a href="https://github.com/jishnuwarrier/EfficientDebates">EfficientDebates - Pruning-Based Multi-Agent Reasoning with Small LLMs</a>
+    - title: <a href="https://github.com/jishnuwarrier/Multi-agent-debate">EfficientDebates - Pruning-Based Multi-Agent Reasoning with Small LLMs</a>
       year: Feb 2025 – May 2025
       description:
         - Designed an adaptive pruning-based multi-agent debate protocol that boosts reasoning accuracy of small LLMs (LLaMA 3B/8B, Phi 3 Mini) on GSM8K to 90.3%, rivaling LLaMA 70B while reducing compute cost by 4.3x.

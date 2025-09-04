@@ -1,11 +1,13 @@
 ---
 layout: page
 permalink: /teaching/
-title: "teaching"
+title: Teaching Experience
+nav_title: teaching
 description: ""
 nav: true
 nav_order: 5
 ---
+
 
 <h2 style="font-size: 1.8rem; font-weight: 600; color: var(--global-theme-color); margin-top: 2rem; margin-bottom: 1.5rem;">Graduate Courses (NYU)</h2>
 
