@@ -1,8 +1,9 @@
 ---
 layout: page
 permalink: /resume/
-title: resume
-nav: true
+title: Resume
+# nav_title: resume  # Navigation handled by _data/navigation.yml
+# nav: true  # Navigation handled by _data/navigation.yml
 nav_order: 4
 ---
 
@@ -43,7 +44,7 @@ body {
 
 <div class="resume-container">
   <iframe 
-    src="{{ 'assets/pdf/jishnu_resume.pdf' | relative_url }}" 
+    src="{{ 'assets/pdf/jishnu_resume.pdf' | relative_url }}?v={{ site.time | date: '%s' }}" 
     class="resume-iframe"
     title="Jishnu Warrier Resume">
     <p style="padding: 2rem; text-align: center;">

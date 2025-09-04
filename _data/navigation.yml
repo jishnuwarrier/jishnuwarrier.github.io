@@ -1,17 +1,17 @@
----
-# Define the exact order and labels for the navbar.
-# label: text shown in the navbar
-# url: page URL (relative to site baseurl)
+# Single source of truth for navigation labels and order
+# All pages will use these exact labels consistently
 
-- label: experience
-  url: /research/
+- label: About
+  url: /
 
-- label: projects
+- label: Experience
+  url: /experience/
+
+- label: Projects
   url: /projects/
 
-- label: resume
-  url: /assets/pdf/jishnu_resume.pdf
-  target: _blank
+- label: Resume
+  url: /resume/
 
-- label: teaching
+- label: Teaching
   url: /teaching/

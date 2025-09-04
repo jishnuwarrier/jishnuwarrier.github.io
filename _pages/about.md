@@ -1,6 +1,7 @@
 ---
 layout: about
-title: about
+title: About
+# nav_title: about  # Navigation handled by _data/navigation.yml
 permalink: /
 subtitle: MS Computer Engineering @NYU | Research Assistant @SAI Lab
 
@@ -31,6 +32,6 @@ Hi, I’m Jishnu 👋
 
 I’m a Master’s student in Computer Engineering at NYU Tandon, where I focus on building intelligent, scalable systems at the intersection of AI and software engineering. My journey began with an undergraduate degree from BITS Pilani, followed by a year as a Software Engineer at Chubb, where I worked on AI-driven platforms and large-scale backend infrastructure.
 
-Now at NYU, I’m combining research and engineering — exploring how reinforcement learning and large language models can power complex, real-world decision-making. I’ve also spent time developing deep learning models during my internship at Nanyang Technological University, which gave me early exposure to applying AI to human-centered problems.
+Now at NYU, I’m combining research and engineering — exploring how reinforcement learning and large language models can power complex, real-world decision-making. I’ve also spent time developing deep learning models during my internship at NTU Singapore, which gave me early exposure to applying AI to human-centered problems.
 
 I enjoy solving problems that sit at the crossroads of machine learning, distributed systems, and practical applications. Whether it’s deploying production-grade pipelines, optimizing large-scale systems, or experimenting with new ways to make AI more explainable and impactful, I’m always curious to dive deeper.

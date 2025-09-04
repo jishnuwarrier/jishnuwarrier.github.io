@@ -269,6 +269,7 @@ ul.task-list input[type="checkbox"] {
 
 .dropdown-item {
   color: var(--global-text-color);
+  text-transform: none;
 
   &:hover {
     color: var(--global-hover-color);
@@ -290,6 +291,7 @@ ul.task-list input[type="checkbox"] {
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
     margin-left: 1.5rem;
+    text-transform: none;
 
     &:hover {
       color: var(--global-hover-color);

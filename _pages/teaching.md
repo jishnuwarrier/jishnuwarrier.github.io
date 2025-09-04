@@ -2,9 +2,9 @@
 layout: page
 permalink: /teaching/
 title: Teaching Experience
-nav_title: teaching
+# nav_title: teaching  # Navigation handled by _data/navigation.yml
 description: ""
-nav: true
+# nav: true  # Navigation handled by _data/navigation.yml
 nav_order: 5
 ---
 
