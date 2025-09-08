@@ -42,17 +42,17 @@
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          <!-- Navigation handled by _data/navigation.yml -->
-          {% if site.data.navigation %}
+          <!-- Navigation handled by _data/navigation.yml - single source of truth -->
+          {% if site.data.navigation and site.data.navigation.size > 0 %}
             {% for n in site.data.navigation %}
               {% if n.children %}
                 {% assign has_active_child = false %}
                 {% for child in n.children %}
-                  {% if page.url contains child.url %}
+                  {% if page.url == child.url %}
                     {% assign has_active_child = true %}
                   {% endif %}
                 {% endfor %}
-                <li class="nav-item dropdown {% if page.url contains n.url or has_active_child %}active{% endif %}">
+                <li class="nav-item dropdown {% if page.url == n.url or has_active_child %}active{% endif %}">
                   <a
                     class="nav-link dropdown-toggle"
                     href="#"
@@ -63,7 +63,7 @@
                     aria-expanded="false"
                   >
                     {{- n.label | default: n.title -}}
-                    {% if page.url contains n.url or has_active_child %}
+                    {% if page.url == n.url or has_active_child %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
                   </a>
@@ -73,7 +73,7 @@
                         <div class="dropdown-divider"></div>
                       {% else %}
                         <a
-                          class="dropdown-item {% if page.url contains child.url %}active{% endif %}"
+                          class="dropdown-item {% if page.url == child.url %}active{% endif %}"
                           href="{{ child.url | relative_url }}"{% if child.target %} target="{{ child.target }}"{% if child.target == '_blank' %} rel="noopener"{% endif %}{% endif %}
                         >
                           {{- child.label | default: child.title -}}
@@ -83,10 +83,10 @@
                   </div>
                 </li>
               {% else %}
-                <li class="nav-item {% if page.url contains n.url %}active{% endif %}">
+                <li class="nav-item {% if page.url == n.url %}active{% endif %}">
                   <a class="nav-link" href="{{ n.url | relative_url }}"{% if n.target %} target="{{ n.target }}"{% if n.target == '_blank' %} rel="noopener"{% endif %}{% endif %}>
                     {{- n.label | default: n.title -}}
-                    {% if page.url contains n.url %}
+                    {% if page.url == n.url %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
                   </a>
@@ -94,6 +94,7 @@
               {% endif %}
             {% endfor %}
           {% else %}
+            <!-- Fallback: Use page frontmatter (only when navigation.yml doesn't exist) -->
             {% assign sorted_pages = site.pages | sort: 'nav_order' %}
             {% for p in sorted_pages %}
               {% if p.nav and p.autogen == null %}
@@ -136,7 +137,7 @@
                   </li>
                 {% else %}
                   {% assign parent_link = p.permalink | remove: 'index.html' %}
-                  <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
+                  <li class="nav-item {% if page.url == parent_link %}active{% endif %}">
                     {%- if p.permalink contains '://' -%}
                       {%- assign url = p.permalink -%}
                     {%- elsif p.permalink contains '/blog/' -%}
@@ -146,7 +147,7 @@
                     {%- endif %}
                     <a class="nav-link" href="{{ url | relative_url }}">
                       {{- p.nav_title | default: p.title }}
-                      {% if page.url contains p.url %}
+                      {% if page.url == p.url %}
                         <span class="sr-only">(current)</span>
                       {% endif %}
                     </a>
